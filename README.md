@@ -8,15 +8,32 @@ I recently got the AWS solutions architect associate certificate in July 2019, a
 
 So you should go through the notes only after you have done a course that explains the basics, such as the one from ACloudGuru. Also, full disclosure, the links to the above courses are referral ones. So if these notes helped you and you're planning to buy the courses or practices tests, please consider going through the links when you're buying.
 
-__Note__ — You can also check out [this blog post](https://sumit-ghosh.com/articles/aws-solutions-architect-associate-preparation/) where I describe my preparation strategy in detail. 
+__Note__ — You can also check out [this blog post](https://sumit-ghosh.com/articles/aws-solutions-architect-associate-preparation/) for additional preparation strategy in detail. 
 
 ## Contents
 
+- [Notes for AWS Certified Solutions Architect Associate](#notes-for-aws-certified-solutions-architect-associate)
+  - [Contents](#contents)
 - [Well-Architected Framework](#well-architected-framework)
-- [Route 53](#route53)
+  - [Operational Excellence](#operational-excellence)
+    - [Design Principles](#design-principles)
+    - [Best Practices](#best-practices)
+  - [Security](#security)
+    - [Design Principles](#design-principles-1)
+    - [Best Practices](#best-practices-1)
+  - [Reliability](#reliability)
+    - [Design Principles](#design-principles-2)
+    - [Best Practices](#best-practices-2)
+  - [Performance Efficiency](#performance-efficiency)
+    - [Design Principles](#design-principles-3)
+    - [Best Practices](#best-practices-3)
+  - [Cost Optimization](#cost-optimization)
+    - [Design Principles](#design-principles-4)
+    - [Best Practices](#best-practices-4)
+- [Route53](#route53)
 - [S3](#s3)
-- [RDS, Redshift and ElastiCache](##rds-redshift-and-elasticache)
-- [EBS](#ec2-and-ebs)
+- [RDS, Redshift and ElastiCache](#rds-redshift-and-elasticache)
+- [EC2 and EBS](#ec2-and-ebs)
 - [EFS](#efs)
 - [ELB and Autoscaling](#elb-and-autoscaling)
 - [SQS](#sqs)
